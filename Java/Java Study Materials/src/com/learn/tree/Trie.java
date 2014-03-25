@@ -8,6 +8,7 @@ public class Trie {
 	char x;
 	Map<Character, Trie> list;
 	boolean word;
+	int count;
 
 	public Trie(char ch) {
 		this.x = ch;
